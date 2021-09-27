@@ -1,8 +1,6 @@
 import * as React from "react"
 import SEO from "../components/SEO"
 
-import logo from "../images/header-image.jpg"
-
 // markup
 const IndexPage = () => {
   return (
