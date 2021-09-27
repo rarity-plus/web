@@ -1,10 +1,11 @@
 import * as React from "react"
+import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 
 // markup
 const IndexPage = () => {
   return (
-    <>
+    <Layout>
     <SEO title="Home" description="Rarity.plus is an upcoming 3D MMORPGer built on top of Rarity Smart Contracts" />
     <div className='w-full flex justify-center items-center relative h-screen'>
       
@@ -16,7 +17,7 @@ const IndexPage = () => {
           <h2 className='font-skranji font-bold text-center text-base'>Coming Soon!</h2>
       </div>
    </div>
-   </>
+   </Layout>
   )
 }
 

@@ -1,10 +1,11 @@
-import * as React from "react"
+import React from "react"
 import SEO from "../components/SEO"
+import Layout from "../components/Layout"
 
 // markup
 const NotFoundPage = () => {
   return (
-    <>
+    <Layout>
       <SEO title="404 Not Found" description="404 Not Found page" />
       <div className='w-full flex justify-center items-center relative h-screen'>
       <img src={'header-image.jpg'} className='absolute opacity-25 w-full pointer-events-none object-cover h-full' />
@@ -13,7 +14,7 @@ const NotFoundPage = () => {
         <h1 className='font-skranji font-bold text-center'>404 Not Found</h1>
       </div>
     </div>
-    </>
+    </Layout>
   )
 }
 
